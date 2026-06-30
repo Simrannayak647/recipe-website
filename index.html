@@ -9,18 +9,27 @@
 </head>
 <body>
 <header>
-<nav>
-      <a href="index.html">RecipeHub</a>
-      <ul>
-        
-<li><a href="#">Home</a></li>
-<li><a href="#">Categories</a></li>
-<li><a href="#">Featured</a></li>
-<li><a href="#">Trending</a></li>
-</ul>
-Search: <input type="text" placeholder="Search recipes...">
-</nav>
+    <nav>
 
+        <div class="logo">
+            <a href="index.html">RecipeHub</a>
+        </div>
+
+        <div class="nav-links">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Latest</a></li>
+            </ul>
+        </div>
+
+        <div class="search-box">
+            <input type="search" placeholder="Search recipes...">
+        </div>
+
+    </nav>
 </header>
 <main>
  <section id="hero">
@@ -32,7 +41,7 @@ Your browser does not support the video tag .
 
     <div class="overlay"></div>
 
-    <div class="hero-content">
+    <div id="hero-content">
 
         <h1>Discover Delicious Recipes</h1>
 
@@ -41,7 +50,7 @@ Your browser does not support the video tag .
             Simple, healthy, and delicious meals for everyone.
         </p>
 
-        <button><a href="#lets-begin">Let's Begin</a></button>
+        <button class="hero-btn"><a href="#lets-begin">Let's Begin</a></button>
 
         <div class="scroll-indicator">
 

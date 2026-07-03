@@ -29,10 +29,11 @@
 /* Banner Content */
 #hero-content{
     position: absolute;
-    top: 60%;
-    left: 5%;
+    top: 75%;
+    left: 10%;
     transform: translateY(-50%);
     z-index: 2;
+    /* width: 150%; */
 
     color: white;
 
@@ -46,9 +47,10 @@
 }
 
 #hero-content p{
-    font-size: 1.2rem;
+    font-size:clamp(1rem,2vw,1.3rem);
+
     line-height: 1.8;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 #hero-content .hero-btn{
     display: inline-block;

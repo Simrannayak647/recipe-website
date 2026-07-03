@@ -60,5 +60,57 @@ nav{
 
     font-size:15px;
 }
+.menu-toggle{
+
+    display:none;
+
+    font-size:2rem;
+
+    color:white;
+
+    cursor:pointer;
+
+    user-select:none;
+
+}
+
 
 /* NavBar Css Ends Here */
+@media (max-width:992px){
+
+    nav{
+
+        padding:0 40px;
+    }
+
+    .nav-links ul{
+
+        gap:20px;
+    }
+
+    .search-box input{
+
+        width:180px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    nav{
+        padding:0 20px;
+    }
+
+    .nav-links{
+        display:none;
+    }
+
+    .search-box{
+        display:none;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+}

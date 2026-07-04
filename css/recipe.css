@@ -1,0 +1,221 @@
+/* ==========================
+   Recipe Page
+========================== */
+
+.recipe-page{
+    width:min(1200px,92%);
+    margin:120px auto 80px;
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.recipe-hero{
+    display:grid;
+    grid-template-columns:1.1fr 1fr;
+    gap:60px;
+    align-items:center;
+}
+
+.recipe-image{
+    border-radius:20px;
+    overflow:hidden;
+}
+
+.recipe-image img{
+    width:100%;
+    height:600px;
+    object-fit:cover;
+    display:block;
+}
+
+.recipe-info h1{
+    font-size:3.3rem;
+    line-height:1.15;
+    margin-bottom:25px;
+    color:#fff;
+}
+
+.rating{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:25px;
+    font-size:1.2rem;
+    color:#ffc107;
+}
+
+.rating span{
+    color:#bbb;
+    font-size:1rem;
+}
+
+.recipe-description{
+    color:#cfcfcf;
+    line-height:1.8;
+    font-size:1.05rem;
+    margin-bottom:35px;
+}
+
+/* ==========================
+   Recipe Meta
+========================== */
+
+.recipe-meta{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    margin-bottom:40px;
+}
+
+.meta-box{
+    background:#1d1d1d;
+    padding:18px;
+    border-radius:12px;
+    border:1px solid #2c2c2c;
+}
+
+.meta-box h4{
+    color:#999;
+    font-size:.85rem;
+    margin-bottom:8px;
+    text-transform:uppercase;
+}
+
+.meta-box p{
+    color:#fff;
+    font-size:1.05rem;
+    font-weight:600;
+}
+
+/* ==========================
+   Action Buttons
+========================== */
+
+.recipe-actions{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.recipe-actions button{
+    padding:14px 26px;
+    border:none;
+    border-radius:40px;
+    background:#ff6b35;
+    color:#fff;
+    font-size:1rem;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.recipe-actions button:hover{
+    background:#ff814f;
+    transform:translateY(-3px);
+}
+
+/* ==========================
+   Ingredients
+========================== */
+
+.ingredients{
+    margin-top:100px;
+}
+
+.ingredients h2{
+    color:#fff;
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+.ingredients ul{
+    list-style:none;
+}
+
+.ingredients li{
+    padding:18px 0;
+    border-bottom:1px solid #2b2b2b;
+    color:#ddd;
+    font-size:1.05rem;
+}
+
+/* ==========================
+   Instructions
+========================== */
+
+.instructions{
+    margin-top:90px;
+}
+
+.instructions h2{
+    font-size:2rem;
+    margin-bottom:40px;
+}
+
+.step{
+    background:#1a1a1a;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:30px;
+}
+
+.step h3{
+    color:#ff6b35;
+    margin-bottom:15px;
+}
+
+.step p{
+    color:#ccc;
+    line-height:1.8;
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:992px){
+
+    .recipe-hero{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .recipe-image img{
+        height:450px;
+    }
+
+    .recipe-info h1{
+        font-size:2.5rem;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .recipe-page{
+        width:92%;
+        margin:100px auto 60px;
+    }
+
+    .recipe-image img{
+        height:320px;
+    }
+
+    .recipe-info h1{
+        font-size:2rem;
+    }
+
+    .recipe-meta{
+        grid-template-columns:1fr;
+    }
+
+    .recipe-actions{
+        flex-direction:column;
+    }
+
+    .recipe-actions button{
+        width:100%;
+    }
+
+}

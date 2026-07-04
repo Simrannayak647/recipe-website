@@ -29,6 +29,14 @@ nav{
     font-size: 2rem;
     font-weight: bold;
 }
+#nav-logo{
+    background:linear-gradient(90deg,#ff6b35,#ff9f43);
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    background-clip:text;
+}
 .nav-links ul{
     display: flex;
     list-style: none;

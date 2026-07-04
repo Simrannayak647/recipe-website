@@ -34,7 +34,7 @@
     font-size:3.3rem;
     line-height:1.15;
     margin-bottom:25px;
-    color:#fff;
+    color:#000000;
 }
 
 .rating{
@@ -47,12 +47,12 @@
 }
 
 .rating span{
-    color:#bbb;
+    color:#060000;
     font-size:1rem;
 }
 
 .recipe-description{
-    color:#cfcfcf;
+    color:#000000;
     line-height:1.8;
     font-size:1.05rem;
     margin-bottom:35px;
